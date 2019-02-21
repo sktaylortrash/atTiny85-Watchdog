@@ -1,10 +1,10 @@
 #include "timer.h"
 
 // constants won't change -- used to set pin numbers and define delays
-const int hbPin = 3; // Use the signal from the host to set the
+const int hbPin = 4; // Use the signal from the host to set the
 // heartbeat status
-const int resetPin = 4; // use this pin to reset the host
-const int ledPin = 1; // built-in LED on Trinket
+const int resetPin = 3; // use this pin to reset the host
+const int ledPin = 1; // built-in LED on atTiny85
 const unsigned long resetTime = (1000 * 60 *3); // give the host 3 minutes to boot
 const unsigned long hbTime = (1000 * 30); // 30 second heartbeat cycle before reset
 
