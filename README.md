@@ -10,3 +10,5 @@ If a state change is not detected, resetPin is pulled LOW to force a reset on th
 ResetPin on the watchdog needs to be connected to the RST pin on the host and both devices need to be on a common ground.
 
 On startup and after a reset, resetTime is invoked to insure the host has time to properly start up and start emitting the heartbeat signal.
+
+Code cribbed from https://www.instructables.com/id/External-Hardware-Watchdog/ 
