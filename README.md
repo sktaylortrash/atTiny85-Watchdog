@@ -12,3 +12,5 @@ ResetPin on the watchdog needs to be connected to the RST pin on the host and bo
 On startup and after a reset, resetTime is invoked to insure the host has time to properly start up and start emitting the heartbeat signal.
 
 Code cribbed from https://www.instructables.com/id/External-Hardware-Watchdog/ 
+
+![Alt text](/images/Digispark-ATTINY85.jpg?raw=true "Optional Title")
