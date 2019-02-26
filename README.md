@@ -9,7 +9,7 @@ Onboard LED mimics the state of the hbPin signal from the host, giving a visual 
 If a state change is not detected, resetPin is pulled LOW to force a reset on the host.
 ResetPin on the watchdog needs to be connected to the RST pin on the host and both devices need to be on a common ground.
 
-On startup and after a reset, resetTime is invoked to insure the host has time to properly start up and start emitting the heartbeat signal.
+Can be used in conjunction with - https://github.com/sktaylortrash/HeartBeat
 
 Dependant Libraries
 
