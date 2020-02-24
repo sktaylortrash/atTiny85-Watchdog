@@ -1,4 +1,4 @@
-This sketch is for a DigiSpark Tiny85 or AdaFruit Trinket
+This sketch is for a DigiSpark ATTiny85 or AdaFruit Trinket
 
 Acts as a hardware watchdog on any host that has a reset pin which functions by being pulled LOW to ground.
 
